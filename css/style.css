@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "ABeeZee", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    background: #ff1100;
+    background: -webkit-linear-gradient(#ff1100, #FA8F87);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff1100, #FA8F87);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff1100, #FA8F87);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff1100, #FA8F87);
+    /* Standard syntax */
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
+    /*border: 25px solid white;*/
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /*border-radius: 5px;*/
+}
